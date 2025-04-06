@@ -124,7 +124,7 @@ export default function ClientFeedback() {
                 <div>
                   <div className="flex items-center mb-8">
                     {slide.icon}
-                    <span className="text-sm text-gray-500">
+                    <span className="text-xl ml-2 text-gray-500">
                       Posted on {slide.platform}
                     </span>
                   </div>

@@ -8,6 +8,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import ClientFeedback from './components/ClientFeedback/ClientFeedback';
 import ContactMain from './components/ContactInfo/ContactMain';
 import PartnerSwiper from './components/PartnerSwiper/PartnerSwiper';
+import WhatWeDo from './components/WhatWeDo/WhatWeDo';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       </div>
       <div>
         <PartnerSwiper/>
+      </div>
+      <div>
+        <WhatWeDo/>
       </div>
       <div>
         <ClientFeedback/>

@@ -9,20 +9,20 @@ const ContactInfo = () => {
     <div className="bg-white p-8 rounded-2xl shadow-lg">
       <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">Contact Information</h2>
       <div className="space-y-6">
-        <InfoItem icon={<LocationOnIcon className="text-orange-500" />} title="Main Office">
+        <InfoItem icon={<LocationOnIcon className="text-black-500" />} title="Main Office">
           Safe Ledger Private Limited<br />
           #101, Oxford Towers, 139, HAL<br />
           Old Airport Rd, Kodihalli,<br />
           Bengaluru, Karnataka 560008
         </InfoItem>
-        <InfoItem icon={<PhoneIcon className="text-orange-500" />} title="Make a Call">
+        <InfoItem icon={<PhoneIcon className="text-black-500" />} title="Make a Call">
           Phone: +91 84477 46183
         </InfoItem>
-        <InfoItem icon={<AccessTimeIcon className="text-orange-500" />} title="Working Hours">
+        <InfoItem icon={<AccessTimeIcon className="text-black-500" />} title="Working Hours">
           Monday-Friday: 9:00 - 06:00<br />
           Saturday-Sunday: Holiday
         </InfoItem>
-        <InfoItem icon={<EmailIcon className="text-orange-500" />} title="Send an Email">
+        <InfoItem icon={<EmailIcon className="text-black-500" />} title="Send an Email">
           support@registerkaro.in<br />
           admin@registerkaro.in
         </InfoItem>
