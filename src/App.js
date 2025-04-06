@@ -6,6 +6,8 @@ import ChooseSection from './components/ChooseSection';
 import OurServices from './components/OurServices';
 import HeroSection from './components/HeroSection/HeroSection';
 import ClientFeedback from './components/ClientFeedback/ClientFeedback';
+import ContactMain from './components/ContactInfo/ContactMain';
+import PartnerSwiper from './components/PartnerSwiper/PartnerSwiper';
 
 function App() {
   return (
@@ -22,7 +24,13 @@ function App() {
         <OurServices/>
       </div>
       <div>
+        <PartnerSwiper/>
+      </div>
+      <div>
         <ClientFeedback/>
+      </div>
+      <div>
+        <ContactMain/>
       </div>
     </div>
   );
