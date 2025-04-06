@@ -9,6 +9,7 @@ import ClientFeedback from './components/ClientFeedback/ClientFeedback';
 import ContactMain from './components/ContactInfo/ContactMain';
 import PartnerSwiper from './components/PartnerSwiper/PartnerSwiper';
 import WhatWeDo from './components/WhatWeDo/WhatWeDo';
+import BlogSwiper from './components/BlogSwiper/BlogSwiper';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
       </div>
       <div>
         <ClientFeedback/>
+      </div>
+      <div>
+        <BlogSwiper/>
       </div>
       <div>
         <ContactMain/>
