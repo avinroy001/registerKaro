@@ -26,10 +26,10 @@ function App() {
         <OurServices/>
       </div>
       <div>
-        <PartnerSwiper/>
+        <WhatWeDo/>
       </div>
       <div>
-        <WhatWeDo/>
+        <PartnerSwiper/>
       </div>
       <div>
         <ClientFeedback/>
