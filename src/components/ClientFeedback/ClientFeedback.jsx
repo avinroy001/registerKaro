@@ -107,6 +107,7 @@ export default function ClientFeedback() {
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
+          loop={true}
           breakpoints={{
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
