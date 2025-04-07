@@ -23,7 +23,7 @@ const HeroSection = () => {
             other individuals with various registrations, tax filings, and other
             legal matters.
           </p>
-          <Button  variant="contained" className="btn btn-primary" sx={{ bgcolor: 'black', color: 'white', px: 3 }}>Get Started</Button>
+          <Button  variant="contained" className="btn btn-primary  bg-indigo-600 hover:bg-indigo-700 text-white py-3 px-6 rounded-full transition-colors duration-300" >Get Started</Button>
         </div>
       </div>
     </div>    
